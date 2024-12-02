@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Resources\Comnet.Data.Contracts\Comnet.Data.Contracts.csproj" />
+    <ProjectReference Include="..\Comnet.Business.Contracts\Comnet.Business.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

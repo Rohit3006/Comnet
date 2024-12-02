@@ -1,0 +1,84 @@
+.mui-form-text-field {
+  min-width: 110px;
+  width: 100%;
+  margin: 12px 0px !important;
+}
+
+.mui-text-field {
+  width: 100%;
+  margin: 6px 0px !important;
+}
+
+.mui-form-checkbox {
+  min-width: 110px;
+  width: 100%;
+  margin: 4px 0px !important;
+}
+
+.save-cancel-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  gap: 1rem !important;
+  margin-top: 2rem !important;
+}
+
+.filter-wrapper {
+    // padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+
+    .search-bar {
+      width: 100%;
+    }
+
+  }
+}
+//Assessment
+@media (min-width: 1200px) {
+  .row-fluid {
+    width: 100%;
+  }
+}
+.row-fluid {
+  width: 100%;
+}
+.rating-number {
+  background-color: #e8e8e8;
+  // font-size: 9px;
+}
+.skill-name {
+  background-color: #e8e8e8;
+  padding: 4px 10px 4px 10px;
+  text-align: right;
+  max-width: 500px;
+}
+.skill-score {
+  background-color: #ccc;
+  padding-bottom: 1px;
+  vertical-align: middle;
+}
+td.rating-label {
+  background-color: #afafc9;
+}
+.type-label {
+  font-size: .9em;
+  padding: 0 5px;
+  text-align: left;
+}
+.border-bottom {
+  border-bottom: solid 1px #aaa;
+}
+//Assessment End
+// .MuiPaper-root
+// { 
+//   background-color: var(--cui-body-bg) !important;
+//   border-color: var(--cui-border-color-translucent) !important;
+//   color: var(--cui-body-color) !important;
+// }
